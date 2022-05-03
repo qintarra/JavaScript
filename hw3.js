@@ -135,4 +135,56 @@ const getWordStructure = function(word){
     getWordStructure3("Don't Stop Me Now");
     getWordStructure3("Florence + The Machine");
     getWordStructure3("X Æ A-12");
+
+
+
+    // 4**. Write a function that checks if a word is a palindrome
+// e.g. function isPalindrome(word)
+
+//Option 1
+function isPalindrom(word) {
+    let newString = '';
+    for (i = word.length - 1; i >= 0; i --) {
+        newString = newString + word[i];
+       }
+     if (word.toLowerCase() == newString.toLowerCase()) {
+         console.log(word,'- palindrome',);
+     } else {
+       console.log(word,'- not palindrome',);
+     } 
+   }  
+   
+   isPalindrom('Ab1ba')
+   isPalindrom('Ab12ba')
+
+//Option 2
+function isPalindrom2(str) {
+    str = str.toLowerCase()
+
+    // find the length of a string
+    const len = str.length;
+
+    // loop through half of the string
+    for (let i = 0; i < len / 2; i++) {
+
+        // check if first and last string are same
+        if (str[i] !== str[len - 1 - i]) {
+            return 'It is not a palindrome';
+        }
+    }
+    return 'It is a palindrome';
+}
+console.log(isPalindrom2('Evillive'))
+
+//Option 3
+function isPalindrom3(word) {
+    return word.toLowerCase() == word.toLowerCase().split('').reverse().join('')
+}
+
+    console.log(`${isPalindrom3('Abba') ? 'It is a palindrome' : 'It is not a palindrome'}`)
+
+
     
+//just some testing
+console.log('Weapon of Choice'.split('o'))
+console.log([1,2,3,4,5].join('//'))
