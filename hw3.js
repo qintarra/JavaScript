@@ -74,3 +74,65 @@ function printSmile2(stroka, numberOfRows) {
     }
 }
 printSmile2('=)', 6)
+
+
+
+// 3**.  Write a function that takes a word as input. The task of the function is to calculate and output to the console how many vowels and how many consonants are in the word.
+// e.g. function getWordStructure(word)
+// In console:
+// The word (word) consists of (number) vowels and (number) consonants
+
+//Option 1
+const getWordStructure = function(word){
+    let n = 0;
+    let k = 0;
+    let gl=["a","A", "e","E", "i", "I", "o", "O", "u", "U", "y", "Y"];
+    let sogl=["b","B", "c", "C", "d", "D", "f","F", "g","G", "h","H", "j","J", "k","K", "l","L", "m","M", 
+    "n","N", "p","P", "q","Q", "r","R", "s","S", "t","T", "v","V", "w","W", "x","X", "y","Y", "z","Z"];
+    
+        for(i = 0; i < word.length; i++){
+            for(j = 0; j < gl.length; j++){
+                if(word[i] === gl[j] ){
+                    n++;
+                    break;
+                }
+            }    
+            for(q = 0; q < sogl.length; q++){
+                if(word[i] === sogl[q]){
+                    k++;
+                    break;
+                }
+            }    
+        }
+        console.log("The word " + word + " consists of " + n + " vowels and "+ k + " consonants" )
+    }
+    getWordStructure("Metallica")
+    
+    //Option 2
+    function getWordStructure2(word) {
+        const vowels = 'aeiouy'.split('')
+        const consonants = 'bcdfghjklmnpqrstvwxz'.split('')
+        let numberOfVowels = 0;
+        let numberofConsonants = 0;
+        for(char of word.toLowerCase()) {
+            if (vowels.includes(char)) numberOfVowels++;
+            if (consonants.includes(char)) numberofConsonants++;
+        }
+        console.log(`The word ${word} consists of ${numberOfVowels} vowels and ${numberofConsonants} consonants`)
+    }
+    
+    getWordStructure2('Michael Jackson')
+    getWordStructure2('Symphony No. 9 In D Minor')
+    getWordStructure2('AC/DC')
+    
+    //Option 3
+    function getWordStructure3 (word) {  
+        let vowels = word.match(/[aeiou]/gi);
+        let consonants = word.match(/[bcdfghjklmnpqrstvwxyz]/gi);
+        console.log("Word '" + word + "' consists of " + vowels.length + ' vowel and ' + consonants.length + " consonant letters")
+    };
+    
+    getWordStructure3("Don't Stop Me Now");
+    getWordStructure3("Florence + The Machine");
+    getWordStructure3("X Æ A-12");
+    
