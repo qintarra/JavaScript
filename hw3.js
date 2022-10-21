@@ -127,8 +127,8 @@ const getWordStructure = function(word){
     
     //Option 3
     function getWordStructure3 (word) {  
-        let vowels = word.match(/[aeiouy]/gi);
-        let consonants = word.match(/[bcdfghjklmnpqrstvwxz]/gi);
+        let vowels = word.match(/[aeiou]/gi);
+        let consonants = word.match(/[bcdfghjklmnpqrstvwxyz]/gi);
         console.log("Word '" + word + "' consists of " + vowels.length + ' vowel and ' + consonants.length + " consonant letters")
     };
     
