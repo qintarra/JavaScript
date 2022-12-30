@@ -33,7 +33,11 @@
 // 32. If age_1 > age_3, output “Keep calm and look Discovery channel” to the console.
 // 33. Otherwise print "Technical work".
 
+// 1. Create a variable “item_1”
+// 2. Assign the number 5 to the item_1 variable.
 let item_1 = 5
+
+
 let item_2 = 3
 let item_3 = (item_1 + item_2)
 let item_4 = "yolo4"
@@ -43,6 +47,7 @@ let item_6_type = typeof(item_6)
 let item_7 = String(item_6)
 let item_7_type = typeof(item_7)
 
+// 3. Print item_1 to the console.
 console.log(item_1)
 console.log(item_2)
 console.log(item_3)
