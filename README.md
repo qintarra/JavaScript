@@ -1,2 +1,3 @@
 # JavaScript
-My homework
+
+Some tasks from my homework
