@@ -37,8 +37,11 @@
 // 2. Assign the number 5 to the item_1 variable.
 let item_1 = 5
 
+// 4. Create a variable "item_2"
 
 let item_2 = 3
+
+
 let item_3 = (item_1 + item_2)
 let item_4 = "yolo4"
 let item_5 = item_3
