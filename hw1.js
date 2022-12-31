@@ -46,7 +46,9 @@ let item_2 = 3
 let item_3 = (item_1 + item_2)
 
 // 10. Create variable "item_4"
+// 11. Assign the string "yolo4" to item_4
 let item_4 = "yolo4"
+
 let item_5 = item_3
 let item_6 = 15
 let item_6_type = typeof(item_6)
