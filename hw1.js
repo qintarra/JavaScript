@@ -63,6 +63,8 @@ console.log(item_2)
 
 // 9. Print item_3 to the console.
 console.log(item_3)
+
+// 12. Print item_4 to the console.
 console.log(item_4)
 console.log(item_3 + item_4)
 console.log(item_3 * item_4)
