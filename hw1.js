@@ -56,6 +56,8 @@ console.log(item_1)
 
 // 6. Print item_2 to the console.
 console.log(item_2)
+
+// 9. Print item_3 to the console.
 console.log(item_3)
 console.log(item_4)
 console.log(item_3 + item_4)
