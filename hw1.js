@@ -44,6 +44,8 @@ let item_2 = 3
 // 7. Create variable "item_3"
 // 8. Assign item_3 to the addition of item_1 and item_2.
 let item_3 = (item_1 + item_2)
+
+// 10. Create variable "item_4"
 let item_4 = "yolo4"
 let item_5 = item_3
 let item_6 = 15
