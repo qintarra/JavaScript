@@ -38,7 +38,7 @@
 let item_1 = 5
 
 // 4. Create a variable "item_2"
-
+// 5. Assign the number 3 to the item_2 variable.
 let item_2 = 3
 
 
