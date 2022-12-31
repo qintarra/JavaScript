@@ -66,7 +66,10 @@ console.log(item_3)
 
 // 12. Print item_4 to the console.
 console.log(item_4)
+
+// 13. Print the addition of item_3 and item_4 to the console.
 console.log(item_3 + item_4)
+
 console.log(item_3 * item_4)
 console.log("item_6 == " + item_6, "item_6_type == " + item_6_type)
 console.log("item_7 == " + item_7, "item_7_type == " + item_7_type)
