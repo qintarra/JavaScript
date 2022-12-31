@@ -52,6 +52,8 @@ let item_7_type = typeof(item_7)
 
 // 3. Print item_1 to the console.
 console.log(item_1)
+
+// 6. Print item_2 to the console.
 console.log(item_2)
 console.log(item_3)
 console.log(item_4)
