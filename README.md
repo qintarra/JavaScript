@@ -54,3 +54,13 @@ Convert task 2-2 in such a way that the value '2' (the string containing ONLY NU
 ### Homework 3
 
 Write a validation script using functions  
+
+  1. The script must accept a string as input   
+  2. After checking the string, output a message to the console where it will be specifically written what is wrong in the entered string   
+  3. Minimum 5 characters per line  
+  4. Maximum 64 characters per line  
+  5. The line must contain letters  
+  6. Must have at least one uppercase letter  
+  7. Must be at least one number  
+  8. Must have at least one @  
+  9. The string must not be empty  
