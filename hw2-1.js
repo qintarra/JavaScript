@@ -2,17 +2,17 @@
 // 27. Create variable "age_2" and set it to 18
 // 28. Create variable "age_3" and set it to 60
 // 29. Create an if in which you will check the value of the variable age_1
-// 30. If age_1 < age_2, print to console “You don’t have access cause your age is” + age_1 + “It’s less then”
+// 30. If age_1 < age_2, print to console “You don’t have access cause your age is” + age_1 + “It’s less than”
 // 31. If age_1 >= age_2 and age_1 < age_3, print “Welcome !” to the console
 // 32. If age_1 > age_3, output “Keep calm and look Discovery channel” to the console.
-// 33. Otherwise print "Technical work".
+// 33. Otherwise, print "Technical work".
 
 const age_1 = 10
 const age_2 = 18
 const age_3 = 60
 
 // if (age_1 < age_2){
-//   console.log('You don’t have access cause your age is ' + age_1 + '. It’s less then ' + age_2)
+//   console.log('You don’t have access cause your age is ' + age_1 + '. It’s less than ' + age_2)
 // } else if (age_1 >= age_2 && age_1 < age_3){
 //   console.log('Welcome!')
 // } else if (age_1 > age_3){
@@ -30,7 +30,7 @@ const age_3 = 60
 
 const checkAge = function(age) {
   if (age < age_2){
-    console.log('You don’t have access cause your age is ' + age + '. It’s less then ' + age_2)
+    console.log('You don’t have access cause your age is ' + age + '. It’s less than ' + age_2)
   } else if (age >= age_2 && age < age_3){
     console.log('Welcome!')
   } else if (age > age_3){
