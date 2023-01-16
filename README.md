@@ -35,3 +35,13 @@
 31. If age_1 >= age_2 and age_1 < age_3, print “Welcome !” to the console  
 32. If age_1 > age_3, output “Keep calm and look Discovery channel” to the console.  
 33. Otherwise, print "Technical work".  
+
+### Homework 2-1
+
+1*:
+Convert the written code in 26-33 points into a function that takes age as input.
+Example: const checkAge = function(age) {
+Your conversions
+}
+Print to the console the result of the function with ages 17, 18, 61
+
