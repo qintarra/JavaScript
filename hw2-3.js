@@ -26,13 +26,3 @@ const checkAge = function(age) {
 checkAge(17)
 checkAge('19')
 checkAge('twenty')
-
-// 2-4:
-// Convert task 3* so that age is entered using the prompt function in the linked layout
-
-// let agePromt = prompt('Enter age')
-// checkAge(agePromt) 
-
-// create html file and add line:
-// <script src="./hw2-3.js"></script> 
-// where "hw2-3.js" is file name with code from previous (2-3) task
