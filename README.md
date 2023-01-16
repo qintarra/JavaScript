@@ -47,3 +47,6 @@ Print to the console the result of the function with ages 17, 18, 61
 
 Task 2-2:
 Convert task 2-1 that the data type is checked first in the function. And if it's not a Number, generates an error message.
+
+Task 2-3:
+Convert task 2-2 in such a way that the value '2' (the string containing ONLY NUMBER) is skipped, converted to a number.
