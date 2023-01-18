@@ -2,14 +2,14 @@
 
 let i = 1;
 let result = 1
-while (i < 11) {
-result = result *2
-i++
+while (i < 11){
+    result = result *2
+    i++;
 }
-console.log(result)
+console.log("task 1: " + result)
 
 
-// 1*. Convert task 1 into a function that takes as input the power to which the number 2 will be raised
+// 1.1 Convert task 1 into a function that takes as input the power to which the number 2 will be raised
 
 //Option 1
 const power = function(num) {
@@ -20,26 +20,25 @@ const power = function(num) {
     return result
 }
 
-console.log(power(10))
+console.log("task 1.1, opt 1: " + power(10))
 
 //Option 2
 const power2 = function(num) {
     return 2**num
 }
 
-console.log(power2(10))
+console.log("task 1.1, opt 2: " + power2(10))
 
 //Option 3
 const power3 = function(num) {
     return Math.pow(2,num)
 }
 
-console.log(power3(10))
-
+console.log("task 1.1, opt 3: " + power3(10))
 
 
 // 2. Write a script that will output 5 lines to the console in such a way that :) is displayed on the first line, :) :) on the second line, and so on
-// Example in console:
+// Example in the console:
 // :)
 // :):)
 // :):):)
@@ -48,20 +47,20 @@ console.log(power3(10))
 
 let word = ':)'
 let result2 = ''
-for (let i=1; i<=4;i++) {
-result2+=word
+for (let i = 1; i <= 5; i++) {
+result2 += word
 console.log(result2)
 }
 
 
-// 2*. Convert task 2 into a function that takes a string as input, which will be output to the console (as in the smiley condition), as well as the number of lines to output
+// 2.2 Convert task 2 into a function that takes a string as input, which will be output to the console (as in the smiley condition), as well as the number of lines to output
 // e.g. function printSmile(stroka, numberOfRows)
 
 //Option 1
 function printSmile(stroka, numberOfRows) {
     let result = '';
-    for (let i = 1; i<=numberOfRows; i++){
-        result+=stroka
+    for (let i = 1; i <= numberOfRows; i++){
+        result += stroka
         console.log(result)   
     }
 }
@@ -69,17 +68,16 @@ printSmile(':(', 5)
 
 //Option 2
 function printSmile2(stroka, numberOfRows) {
-    for (let i = 1; i<=numberOfRows; i++){
+    for (let i = 1; i <= numberOfRows; i++){
         console.log(stroka.repeat(i))  
     }
 }
 printSmile2('=)', 6)
 
 
-
-// 3**.  Write a function that takes a word as input. The task of the function is to calculate and output to the console how many vowels and how many consonants are in the word.
+// 3.3  Write a function that takes a word as input. The task of the function is to calculate and output to the console how many vowels and how many consonants are in the word.
 // e.g. function getWordStructure(word)
-// In console:
+// In the console:
 // The word (word) consists of (number) vowels and (number) consonants
 
 //Option 1
@@ -108,37 +106,36 @@ const getWordStructure = function(word){
     }
     getWordStructure("Metallica")
     
-    //Option 2
-    function getWordStructure2(word) {
-        const vowels = 'aeiouy'.split('')
-        const consonants = 'bcdfghjklmnpqrstvwxz'.split('')
-        let numberOfVowels = 0;
-        let numberofConsonants = 0;
-        for(char of word.toLowerCase()) {
-            if (vowels.includes(char)) numberOfVowels++;
-            if (consonants.includes(char)) numberofConsonants++;
-        }
-        console.log(`The word ${word} consists of ${numberOfVowels} vowels and ${numberofConsonants} consonants`)
+//Option 2
+function getWordStructure2(word) {
+    const vowels = 'aeiouy'.split('')
+    const consonants = 'bcdfghjklmnpqrstvwxz'.split('')
+    let numberOfVowels = 0;
+    let numberofConsonants = 0;
+    for(char of word.toLowerCase()) {
+        if (vowels.includes(char)) numberOfVowels++;
+        if (consonants.includes(char)) numberofConsonants++;
     }
+    console.log(`The word ${word} consists of ${numberOfVowels} vowels and ${numberofConsonants} consonants`)
+}
     
-    getWordStructure2('Michael Jackson')
-    getWordStructure2('Symphony No. 9 In D Minor')
-    getWordStructure2('AC/DC')
+getWordStructure2('Michael Jackson')
+getWordStructure2('Symphony No. 9 In D Minor')
+getWordStructure2('AC/DC')
     
-    //Option 3
-    function getWordStructure3 (word) {  
-        let vowels = word.match(/[aeiou]/gi);
-        let consonants = word.match(/[bcdfghjklmnpqrstvwxyz]/gi);
-        console.log("Word '" + word + "' consists of " + vowels.length + ' vowel and ' + consonants.length + " consonant letters")
-    };
+//Option 3
+function getWordStructure3 (word) {  
+     let vowels = word.match(/[aeiou]/gi);
+    let consonants = word.match(/[bcdfghjklmnpqrstvwxyz]/gi);
+    console.log("Word '" + word + "' consists of " + vowels.length + ' vowel and ' + consonants.length + " consonant letters")
+};
     
-    getWordStructure3("Don't Stop Me Now");
-    getWordStructure3("Florence + The Machine");
-    getWordStructure3("X Æ A-12");
+getWordStructure3("Don't Stop Me Now");
+getWordStructure3("Florence + The Machine");
+getWordStructure3("X Æ A-12");
 
 
-
-    // 4**. Write a function that checks if a word is a palindrome
+// 4. Write a function that checks if a word is a palindrome
 // e.g. function isPalindrome(word)
 
 //Option 1
@@ -167,12 +164,12 @@ function isPalindrom2(str) {
     // loop through half of the string
     for (let i = 0; i < len / 2; i++) {
 
-        // check if first and last string are same
+        // check if the first and last strings are the same
         if (str[i] !== str[len - 1 - i]) {
-            return 'It is not a palindrome';
+            return 'It\'s not a palindrome';
         }
     }
-    return 'It is a palindrome';
+    return 'It\'s a palindrome';
 }
 console.log(isPalindrom2('Evillive'))
 
@@ -181,7 +178,7 @@ function isPalindrom3(word) {
     return word.toLowerCase() == word.toLowerCase().split('').reverse().join('')
 }
 
-    console.log(`${isPalindrom3('Abba') ? 'It is a palindrome' : 'It is not a palindrome'}`)
+console.log(`${isPalindrom3('Abba') ? 'It is a palindrome' : 'It is not a palindrome'}`)
 
 
     
