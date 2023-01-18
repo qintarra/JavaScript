@@ -64,3 +64,12 @@ Write a validation script using functions
   7. Must be at least one number  
   8. Must have at least one @  
   9. The string must not be empty  
+  
+ ### Homework 4  
+ 
+ 1. Write a script that will count and display the result of raising 2 to the power of 10.   
+ 1.1 Convert task 1 into a function that takes as input the power to which the number 2 will be raised.  
+ 2. Write a script that will output 5 lines to the console in such a way that ":)" is displayed on the first line, ":) :)" on the second line, and so on.  
+ 2.2 Convert task 2 into a function that takes a string as input, which will be output to the console (as in the smiley condition), as well as the number of lines to output.  
+ 3.  Write a function that takes a word as input. The task of the function is to calculate and output to the console how many vowels and how many consonants are in the word.   
+ 4. Write a function that checks if a word is a palindrome.  
