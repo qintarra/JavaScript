@@ -81,5 +81,4 @@ Write a validation script using functions
 3. Create a function. The input will take 3 parameters (name, surname, middle_name). Return JSON  
 4. Output an array variable to the console that will contain all even numbers. The variable is returned by a function that takes an array of numbers as input. If there are no even numbers, the function will return the text "No even numbers".  
 5. Create a function that will return the number of "a" letters in the word passed to it. Return the text "No "a" characters" if there are no "a" letters.  
-6. Write a function that will return a list of tests for the web-UI element passed to it. Elements: Phone number field, CheckBox, SignIn Button.  
-7. Write a function that receives JSON as input and returns XML.  
+6. Write a function that receives JSON as input and returns XML.  
