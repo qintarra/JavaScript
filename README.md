@@ -78,4 +78,7 @@ Write a validation script using functions
 
 1. Create a function that will return the sum of 2 numbers passed to this function and will write it to the console.  
 2. Create a function that returns the square of the passed number to the console.  
+3. Create a function. The input will take 3 parameters (name, surname, middle_name). Return JSON  
+
+
 
