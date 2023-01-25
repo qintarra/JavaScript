@@ -75,3 +75,6 @@ Write a validation script using functions
  4. Write a function that checks if a word is a palindrome.   
  
 ### Homework 5 (JS_functions)
+
+1. Create a function that will return the sum of 2 numbers passed to this function and will write it to the console.  
+
