@@ -77,4 +77,5 @@ Write a validation script using functions
 ### Homework 5 (JS_functions)
 
 1. Create a function that will return the sum of 2 numbers passed to this function and will write it to the console.  
+2. Create a function that returns the square of the passed number to the console.  
 
