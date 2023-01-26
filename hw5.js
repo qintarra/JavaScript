@@ -8,4 +8,13 @@ function sum(a, b){
 sum (3, 4)
 sum (-7, 2)
 
+// 2. Create a function that returns the square of the passed number to the console.
+function sqrt (c){
+    let sq = c * c
+    console.log(sq)
+    return sq
+}
+
+sqrt (4)
+
 
