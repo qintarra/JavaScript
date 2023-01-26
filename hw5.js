@@ -17,4 +17,18 @@ function sqrt (c){
 
 sqrt (4)
 
+// 3. Create a function. The input will take 3 parameters (name, surname, middle_name). Return JSON
+function return_json (name, surname, middle_name) {
+    let person_data = { 
+        "name": name, 
+        "surname": surname, 
+        "middle_name": middle_name
+    };
+    let person_data_to_json = JSON.stringify(person_data)
+    console.log(person_data_to_json) 
+    return person_data_to_json
+}
+
+return_json ("Johann", "Sebastian", "Bach")
+
 
