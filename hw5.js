@@ -31,4 +31,17 @@ function return_json (name, surname, middle_name) {
 
 return_json ("Johann", "Sebastian", "Bach")
 
+// 4. Output an array variable to the console that will contain all even numbers. The variable is returned by a function that takes an array of numbers as input. If there are no even numbers, the function will return the text "No even numbers".  
+function evenNumbers(numbers) {
+    let even_number = numbers.filter(num => num % 2 == 0);
+    if (even_number.length == 0) {
+      console.log("No even numbers");
+    } else {
+      console.log(even_number);
+    }
+  }
+
+evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) 
+evenNumbers([1, 3, 5])
+
 
