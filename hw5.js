@@ -50,7 +50,7 @@ evenNumbers([1, 3, 5])
 
 // 5. Create a function that will return the number of "a" letters in the word passed to it. Return the text "No "a" characters" if there are no "a" letters.  
 function number_of_letters (word){
-    let word_letter = (word.split("a").length-1)
+    let word_letter = word.split("a").length - 1
     if (word_letter > 0) {
         console.log("Number of \"a\" letters: " + word_letter)
     } else {
