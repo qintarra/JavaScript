@@ -2,7 +2,7 @@ let line = prompt ('Enter the line: ')
 
 let countError = 0;
 
-if (!(line.length>=5 && line.length<=64)){
+if (!(line.length >= 5 && line.length <= 64)){
     alert('The length of the line is invalid.')
     countError++;
 }
