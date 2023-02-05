@@ -3,16 +3,16 @@ let line = prompt ('Enter the line: ')
 let countError = 0;
 
 if (!(line.length >= 5 && line.length <= 64)){
-    alert('The length of the line is invalid.')
+    alert('The length of the line must be between 5 and 64 symbols.')
     countError++;
 }
 
-if (!(/[a-zа-яё]/i.test(line))){
+if (!(/[a-z]/i.test(line))){
     alert('The line doesn\'t have letters.')
     countError++;
 }
 
-if (!(/[A-ZА-ЯЁ]/.test(line))){
+if (!(/[A-Z]/.test(line))){
     alert('The line doesn\'t have uppercase letters.')
     countError++;
 }
